@@ -1,0 +1,26 @@
+.Banner {
+    width: 100%;
+    height: 220px;
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.BackgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.BackgroundText {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Montserrat';
+        font-size: 35px;
+        color: white;
+        font-weight: bolder;
+}

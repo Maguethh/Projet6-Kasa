@@ -1,0 +1,36 @@
+a, a:visited, a:hover {
+    color: inherit;
+  }
+
+#Header{
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.HeaderTop{
+  display: flex;
+  justify-content: space-between;
+}
+  
+  
+.kasa-logo{
+  margin-top: 2%;
+  height: 50px;
+}
+
+
+.menuPuce{
+    list-style-type: none;
+    font-size: 25px;
+    color: #FF6060; 
+    font-family: 'Montserrat';
+    font-weight: 500;
+    
+}
+  
+  .menuNav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 3%;
+  }

@@ -1,0 +1,41 @@
+.Box {
+    display: flex;
+    flex-direction: column;
+}
+
+.BoxTop {
+    background-color: #FF6060   ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Montserrat";
+    display: flex;
+    cursor: pointer;
+}
+
+.BoxBottom {
+    background-color: #F7F7F7;
+    color: #FF6060;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    width: 90%;
+}
+
+.BoxArrow {
+    width: 10%;
+    text-align: center;
+}
+
+.Equipments {
+    display: flex;
+    flex-direction: column;
+    color: #FF6060;
+    height: 100%;
+    padding-left: 10px;
+}
+

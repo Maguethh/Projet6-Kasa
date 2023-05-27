@@ -1,0 +1,33 @@
+.carousel{
+    display: flex;
+    position: relative;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.indexCount{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.right_arrow{
+    width: 10%;
+    cursor: pointer;
+}
+
+.left_arrow{
+    width: 10%;
+    cursor: pointer;
+}

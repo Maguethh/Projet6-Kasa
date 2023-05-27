@@ -1,0 +1,127 @@
+h1 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+.app-location{
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 20px;    
+}
+
+.app-title {
+    width: 80%;
+}
+
+.Appart-Information{
+    width: 100%;
+}
+
+.Host_Rating {
+    display: flex;
+}
+
+.Appart-Host {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.host-picture {
+    border-radius: 100%;
+    height: 80px;
+}
+.host-name {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding: 15px;
+    margin: 0px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.Appart-Top {
+    display: flex;
+}
+
+ul, tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 50%;
+    height: 20px;
+    padding-left: 0px;
+}
+
+.tag {
+    background: #FF6060;
+    color: white;
+    border-radius: 15px;
+    height: 20px;
+    font-family: 'Montserrat';
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+}
+
+.Box {
+    width: 100%;
+}
+
+
+.BoxesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    gap: 30px;
+
+}
+
+.BoxDescription {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.BoxTop {
+    margin-top: 30px;
+}
+
+.rightArrow {
+    height: 100%;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.leftArrow {
+    height: 100%;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.StarsRating {
+    font-size: 25px;
+    margin-top: 30px;
+    display: flex;
+    gap: 6px;
+    justify-content: flex-end;
+}
+
+.right_arrow {
+display: flex;
+justify-content: center;
+}
+
+.left_arrow {
+    display: flex;
+    justify-content: center;
+}
