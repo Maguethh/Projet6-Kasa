@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
       <Header />
-      <Banner />
+      <Banner image={AboutBanner} />
 
       <Box
         title="Fiabilité"

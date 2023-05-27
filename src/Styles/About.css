@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 320px){
 
     .content-cards {
         display: flex;
@@ -7,5 +7,115 @@
         width: 100%;
     }
 
+    .card {
+        width: 95%;
+    }
+    
+    .Banner {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        height: 200px;
+        border-radius: 2px;
+    }
 
+    .BackgroundImage {
+        border-radius: 15px;
+    }
+
+    .BackgroundText {
+        width: 75%;
+    }
+
+    .menuPuce {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .menuNav{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .tags{
+        width: 100%;
+    }
+
+
+    #Carousel {
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .carousel {
+        height: 300px;
+    }
+
+    .Appart-Top {
+        flex-direction: column;
+    }
+
+    .Appart-Information {
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .app-title{
+        width: 100%;
+    }
+
+    .Appart-Host {
+        flex-direction: row-reverse;
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .StarsRating {
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .Host_Rating {
+        width: 50%;
+    }
+
+    .host-name {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .host-picture{
+        height: 60px;
+    }
+
+    .BoxesContainer {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .Box {
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .kasa-logo {
+        height: 40px;
+    }
+
+    .errorNumber {
+        font-size: 150px;
+    }
+
+    .errorText {
+        width: 100%;
+        font-size: 30px;
+    }
 }
